@@ -1,0 +1,22 @@
+taxi_data_analytics:
+
+  target: crime_dev
+
+  outputs:
+    crime_dev:
+      type: clickhouse
+      schema: crime_dev
+      password: ''
+    
+    crime_test:
+      type: clickhouse
+      schema: crime_test
+      password: ''
+
+    crime_production:
+      type: clickhouse
+      schema: crime_production
+      password: ''
+
+    
+    

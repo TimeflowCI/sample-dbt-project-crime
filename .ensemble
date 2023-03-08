@@ -1,0 +1,14 @@
+title: Crime Analytics
+
+description: This project analyses crime
+owner: benjamin.wootton.personal@gmail.com
+
+main_branch: main
+
+# In this section we map your projects branches to DBT targets asd
+
+branch_deployments:
+    main : crime_prod
+    test : crime_test
+    dev  : crime_dev
+    my_new_feature : crime_dev
