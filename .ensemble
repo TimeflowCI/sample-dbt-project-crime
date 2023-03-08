@@ -8,7 +8,7 @@ main_branch: main
 # In this section we map your projects branches to DBT targets asd
 
 branch_deployments:
-    main : crime_prod
+    main : crime_production
     test : crime_test
     dev  : crime_dev
     my_new_feature : crime_dev
