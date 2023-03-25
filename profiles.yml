@@ -6,16 +6,19 @@ crime_analytics:
     crime_dev:
       type: clickhouse
       schema: crime_dev
+      host: 35.189.109.115
       password: ''
     
     crime_test:
       type: clickhouse
       schema: crime_test
+      host: 35.189.109.115
       password: ''
 
     crime_production:
       type: clickhouse
       schema: crime_production
+      host: 35.189.109.115
       password: ''
 
     
